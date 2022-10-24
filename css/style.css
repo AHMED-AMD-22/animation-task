@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main1{
+    background-image: url(../img/Amazing.400.Mixed\ Wallpapers.Pack.142.HD\ \(288\).jpg);
+    background-size: cover;
+    height: 100vh;
+    top: 0;
+    position: relative;
+}
+.logo{
+    background-image: url(../img/Asset2\ 2.png);
+    background-size: cover;
+    position: absolute;
+    width: 51px;
+    height: 50px;
+    top: 25px;
+    left: 50px;
+    z-index: 10;
+}
+.shape-1,.shape-2,.shape-3,.shape-4,.shape-5,.shape-6,.shape-7,.shape-8{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+    border-radius: 150px  150px 20px  20px;
+    width: 450px;
+    height: 270px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.349);
+    outline: 2px solid rgba(0, 0, 0, .349);
+    transform: scale(.1,.1);
+    box-shadow: 1px 1px 30px 30px rgba(255, 0, 0, 0.445) inset ;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+}
+.shape-2 ,.shape-4,.shape-6,.shape-8{
+    animation-direction:reverse ;
+    animation-fill-mode: both;
+    left: 900px;
+}
+.shape-1{
+    animation-delay: 2s;
+    animation-name: am1d;
+}
+.shape-2{
+    animation-delay: 14s;
+    animation-name: am2d;
+    left: 900px;
+    top: 40px;
+}
+.shape-3{
+    animation-name: am3d;
+    animation-delay: 26s;
+    top: 80px;
+}
+.shape-4{
+    animation-name: am4d;
+    animation-delay: 38s;
+    left: 900px;
+    top: 120px;
+}
+.shape-5{
+    animation-name: am5d;
+    animation-delay: 50s;
+    top: 160px;
+}
+.shape-6{
+    animation-name: am6d;
+    animation-delay: 62s;
+    left: 900px;
+    top: 200px;
+}
+.shape-7{
+    animation-name: am7d;
+    animation-delay: 74s;
+    top: 240px;
+}
+.shape-8{
+    animation-name: am8d;
+    animation-delay: 86s;
+    left: 900px;
+    top: 280px;
+}
+@keyframes am1d  {
+    0%{left: 0; top: 0;}
+    50%{top: 30%; transform: scale(1,1);}
+    100% { left: 900px; top: 0;}
+}
+@keyframes am3d  {
+    0%{left: 0; top: 80px;}
+    50%{top:30%; transform: scale(1,1);}
+    100% { left: 900px; top: 80px;}
+}
+@keyframes am5d  {
+    0%{left: 0; top: 160px;}
+    50%{top: 30%; transform: scale(1,1);}
+    100% { left: 900px; top: 160px;}
+}
+@keyframes am7d  {
+    0%{left: 0; top: 240px;}
+    50%{top: 30%; transform: scale(1,1);}
+    100% { left: 900px; top: 240px;}
+}
+@keyframes am2d  {
+    0%{left:0; top: 40px;}
+    50%{top: 30%; transform: scale(1,1);}
+    100% { left: 900px; top: 40px;}
+}
+@keyframes am4d  {
+    0%{left:0; top: 120px;}
+    50%{top: 30%; transform: scale(1,1);}
+    100% { left: 900px; top: 120px;}
+}
+@keyframes am6d  {
+    0%{left:0; top: 200px;}
+    50%{top: 30%; transform: scale(1,1);}
+    100% { left: 900px; top: 200px;}
+}
+@keyframes am8d  {
+    0%{left:0; top: 280px;}
+    50%{top: 30%; transform: scale(1,1);}
+    100% { left: 900px; top: 280px;}
+}
+.cover-1,.cover-2 ,.cover-3,.cover-4,.cover-5,.cover-6,.cover-7,.cover-8{
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+    border-radius: 150px  150px 20px  20px;
+    width: 450px;
+    height: 270px;
+    padding: 10px;
+    margin: -12px;
+    border: 2px solid rgba(255, 255, 255, 0.349);
+    outline: 2px solid rgba(0, 0, 0, .349);
+    line-height: 200px;
+    background-image: url(../img/Робот.jpg);
+    background-size: cover;
+    box-shadow: 5px 25px 35px 10px rgba(255, 255, 255, 0.616)  ;
+    animation-name: am21d;
+    animation-duration: 12s;
+}
+.cover-1{
+    animation-delay: 2s;
+}
+.cover-2{
+    animation-delay: 14s;
+    background-image: url(../img/p-1.jpg);
+}
+.cover-3{
+    animation-delay: 26s;
+    background-image: url(../img/p-2.jpg);
+}
+.cover-4{
+    animation-delay: 38s;
+    background-image: url(../img/p-3.jpg);
+}
+.cover-5{
+    animation-delay: 50s;
+    background-image: url(../img/p-4.jpg);
+}
+.cover-6{
+    animation-delay: 62s;
+    background-image: url(../img/p-5.jpg);
+}
+.cover-7{
+    animation-delay: 74s;
+    background-image: url(../img/p-6.jpg);
+}
+.cover-8{
+    animation-delay: 86s;
+    background-image: url(../img/p-7.jpg);
+}
+@keyframes am21d {
+    25%{opacity: 0; }
+    75%{opacity: 0;}
+    100% {  opacity: 1;}
+}
+.pic-1,.pic-2,.pic-3,.pic-4,.pic-5,.pic-6,.pic-7,.pic-8{
+    background-image: url(../img/me.jpg);
+    background-size: cover;
+    width: 80px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.pic-2{
+    background-image: url(../img/me-2.jpg);
+}
+.pic-3{
+    background-image: url(../img/me-3.jpg);
+}
+.pic-4{
+    background-image: url(../img/me-4.jpg);
+}
+.pic-5{
+    background-image: url(../img/me-5.jpg);
+}
+.pic-6{
+    background-image: url(../img/me-6.jpG);
+}
+.pic-7{
+    background-image: url(../img/me-7.jpg);
+}
+.pic-8{
+    background-image: url(../img/me-8.jpg);
+}
+.ico{
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.h-1{
+    letter-spacing: 3px;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ball{
+    margin-left: 50px;
+}
+.ball-1,.ball-2,.ball-3,.ball-4,.ball-5,.ball-6,.ball-7,.ball-8{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #6dccce;
+    margin-top: 630px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 35%;
+    box-shadow: 1px 10px 5px 1px rgba(0, 0, 0, 0.288);
+    animation-name: ball-up-down;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.ball-2{
+    animation-delay: .1s;
+    margin-left: 38%;
+    background-color: #FC7F6F;
+}
+.ball-3{
+    animation-delay: .3s;
+    margin-left: 41%;
+    background-color: #84CDFC;
+}
+.ball-4{
+    animation-delay: .3s;
+    margin-left: 44%;
+    background-color: #dfd352;
+}
+.ball-5{
+    animation-delay: .5s;
+    margin-left: 47%;
+    background-color: #3FD1CD;
+}
+.ball-6{
+    animation-delay: .5s;
+    margin-left: 50%;
+    background-color: #D8BED9;
+}
+.ball-7{
+    animation-delay: .8s;
+    margin-left: 53%;
+    background-color: #FC7F6F;
+}
+.ball-8{
+    animation-delay: .7s;
+    margin-left: 56%;
+    background-color: #FC7F6F;
+}
+@keyframes ball-up-down{
+    0%{  bottom: 0px; }
+    50%{  bottom: 100px;    }
+    100%{ bottom: 0px;}
+}
+.contact-us{
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
+    z-index: 10;
+    color: black;
+    text-align: center;
+    opacity: 0;
+    animation-name: contt;
+    animation-duration: 2s;
+    animation-delay: 98s;
+    animation-fill-mode: forwards;
+}
+@keyframes contt{
+    0%{ transform: scale(0,0); opacity: .1;}
+    100%{opacity: 1; transform: scale(1,1)}
+}
+.ic-15{
+    margin-right: 5px;
+}
+.cont{
+    text-decoration: underline;
+}
+.face{
+    color: black;
+    text-decoration: none;
+    margin: 7px;
+    margin-top: 11px;
+}
+.pub{
+    background-image: url(../img/PUB-5.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+    animation-name: pub-5;
+    animation-duration: 100s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: .7;
+    /* box-shadow: 2px 2px 50px 50px rgba(255, 0, 0, 0.264) inset; */
+}
+@keyframes pub-5{
+    0%{top: 84%; right: 0px;}
+    55%{top: -100; right: 20px; transform: skew(50px 50px);}
+    85%{top:84%; right:0px; transform: skew(20px 20px);}
+    100%{top: -100px; right: 20px; } 
+}
